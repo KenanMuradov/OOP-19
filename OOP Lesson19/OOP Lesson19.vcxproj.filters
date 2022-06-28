@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\People">
+      <UniqueIdentifier>{469ae3c5-644c-44f5-853f-9851a3bf7914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Products">
+      <UniqueIdentifier>{67d42fd3-11c0-48e3-a60a-934a6f080741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Helpers">
+      <UniqueIdentifier>{70b0de50-e8db-406e-9185-8657340a865a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OOP Lesson19.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProductItem.h">
+      <Filter>Файлы заголовков\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Product.h">
+      <Filter>Файлы заголовков\Products</Filter>
+    </ClInclude>
+    <ClInclude Include="Admin.h">
+      <Filter>Файлы заголовков\People</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Файлы заголовков\People</Filter>
+    </ClInclude>
+    <ClInclude Include="Customer.h">
+      <Filter>Файлы заголовков\People</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Файлы заголовков\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Файлы заголовков\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Файлы заголовков\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Program.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Database.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Order.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
